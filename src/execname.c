@@ -13,7 +13,7 @@ static char* executable_name = NULL;
 /* note that up and including win2000, detaching from a process kills it
  <http://article.gmane.org/gmane.os.cygwin/32245>
  <http://article.gmane.org/gmane.os.cygwin/32246>
- <http://article.gmane.org/gmane.os.cygwin/32250> */
+ <https://www.mail-archive.com/cygwin@cygwin.com/msg23481.html> */
 #define default_executable_name  "lisp.exe"
 #else
 #define default_executable_name  "lisp.run"

@@ -2859,7 +2859,7 @@ if [ $CROSS = false ] ; then
 
   if [ "$HSYS" = win32gcc ]; then
     # work around an msys "feature": ":" after "/" is converted to a ";"
-    # <http://article.gmane.org/gmane.comp.gnu.mingw.msys/4281>
+    # <https://marc.info/?l=mingw-msys&m=120053030817110>
     # <http://article.gmane.org/gmane.lisp.clisp.devel/17589>
     # <http://article.gmane.org/gmane.lisp.clisp.devel/17895>
     SAFE_SRCDIR=`echo ${SRCDIR} | sed 's,/,\\\\\\\\,g'`
