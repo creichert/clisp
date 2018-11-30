@@ -655,7 +655,7 @@ format for <command>&cvs; co -D</command>.</para></formalpara>
     to the &libsigsegv; &configure;).</para>
  <para>See these threads which discuss the situation in depth:<simplelist>
    <member><ulink url="http://thread.gmane.org/gmane.comp.lib.gnulib.bugs/14565"/></member>
-   <member><ulink url="http://thread.gmane.org/gmane.comp.sysutils.autoconf.general/10827"/></member>
+   <member><ulink url="https://www.mail-archive.com/autoconf@gnu.org/msg17608.html"/></member>
 </simplelist></para></answer></qandaentry>
 
 
